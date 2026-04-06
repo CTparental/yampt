@@ -48,4 +48,4 @@ mv "ENtoFR_G.xml" "$BASE"
 ./yampt --merge -d "Morrowind.ALL.xml" "Tribunal.ALL.xml" "Bloodmoon.ALL.xml" -o "${NAME}_H.xml"
 
 rm -f "Morrowind.ALL.xml" "Tribunal.ALL.xml" "Bloodmoon.ALL.xml"
-mv "${NAME}_H.xml" "%BASE%"
+mv "${NAME}_H.xml" "$BASE"

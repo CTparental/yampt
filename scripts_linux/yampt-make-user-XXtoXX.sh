@@ -16,9 +16,7 @@ NEW=dict_new
 rm-f "$NEW/*.xml" 
 
 
-export ESM=""
-
-
+ESM=""
 ESM=$(find $INPUT -type f \( -name *.esm -o -name *.esp \) )
 
 ./yampt --make-not $COMMANDS -f $ESM -d "$BASE/$DICT" "$BASE/$DICT_G" "$BASE/$GLOS"

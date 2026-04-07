@@ -1,8 +1,8 @@
 
 
-DICT=ENtoFR_plpatch.xml
-DICT_H=ENtoFR_plpatch_H.xml
-DICT_G=ENtoFR_plpatch_G.xml
+DICT=ENtoFR.xml
+DICT_H=ENtoFR_H.xml
+DICT_G=ENtoFR_G.xml
 GLOS=Glossary.xml
 COMMANDS="--add-annotations --add-hyperlinks"
 
